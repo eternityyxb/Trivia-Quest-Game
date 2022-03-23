@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="270dp"
+    android:layout_height="375dp"
+    android:layout_gravity="center"
+    android:background="@color/Peru"
+    android:orientation="vertical">
+
+    <View
+        android:id="@+id/view4"
+        android:layout_width="419dp"
+        android:layout_height="17dp"
+        android:layout_marginTop="300dp"
+        android:background="@color/DarkGray"
+        app:layout_constraintTop_toBottomOf="@+id/pause_text"
+        tools:layout_editor_absoluteX="-89dp" />
+
+    <View
+        android:id="@+id/view8"
+        android:layout_width="461dp"
+        android:layout_height="11dp"
+        android:layout_marginBottom="5dp"
+        android:background="@color/DarkGray"
+        app:layout_constraintBottom_toTopOf="@+id/pause_text"
+        tools:layout_editor_absoluteX="-26dp" />
+
+    <View
+        android:id="@+id/view5"
+        android:layout_width="75dp"
+        android:layout_height="397dp"
+        android:layout_marginStart="65dp"
+        android:background="@color/DarkGray"
+        app:layout_constraintStart_toEndOf="@+id/pause_text"
+        tools:layout_editor_absoluteY="-13dp" />
+
+    <View
+        android:id="@+id/view6"
+        android:layout_width="39dp"
+        android:layout_height="446dp"
+        android:layout_marginEnd="59dp"
+        android:background="@color/DarkGray"
+        app:layout_constraintEnd_toStartOf="@+id/pause_text"
+        tools:layout_editor_absoluteY="-60dp" />
+
+    <TextView
+        android:id="@+id/pause_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="65dp"
+        android:text="Paused"
+        android:textColor="#FFF"
+        android:textSize="36sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnResume"
+        android:layout_width="157dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="56dp"
+        android:layout_marginBottom="13dp"
+        android:text="Resume"
+        app:layout_constraintBottom_toTopOf="@+id/btnRestart"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pause_text" />
+
+    <Button
+        android:id="@+id/btnRestart"
+        android:layout_width="157dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginEnd="56dp"
+        android:text="Restart"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnResume" />
+
+    <Button
+        android:id="@+id/btnBackToLobby"
+        android:layout_width="157dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginEnd="56dp"
+        android:layout_marginBottom="25dp"
+        android:text="Back to Lobby"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnBackToMap" />
+
+    <Button
+        android:id="@+id/btnBackToMap"
+        android:layout_width="157dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginEnd="56dp"
+        android:text="Back To Map"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnRestart" />
+</androidx.constraintlayout.widget.ConstraintLayout>

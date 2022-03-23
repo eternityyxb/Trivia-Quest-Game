@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="330dp"
+    android:layout_height="200dp"
+    android:layout_gravity="center"
+    android:background="@color/Peru"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView31"
+        android:layout_width="268dp"
+        android:layout_height="83dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="10dp"
+        android:text="Do you want to unequip it?"
+        android:textAlignment="center"
+        android:textColor="#FFF"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toStartOf="@+id/view36"
+        app:layout_constraintStart_toEndOf="@+id/view37"
+        app:layout_constraintTop_toBottomOf="@+id/view34" />
+
+    <View
+        android:id="@+id/view36"
+        android:layout_width="21dp"
+        android:layout_height="199dp"
+        android:layout_marginBottom="1dp"
+        android:background="@color/DarkGray"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/view37"
+        android:layout_width="21dp"
+        android:layout_height="199dp"
+        android:background="@color/DarkGray"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/view34"
+        android:layout_width="333dp"
+        android:layout_height="19dp"
+        android:background="@color/DarkGray"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/view35"
+        android:layout_width="333dp"
+        android:layout_height="19dp"
+        android:background="@color/DarkGray"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btnUnequip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="95dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="94dp"
+        android:layout_marginBottom="10dp"
+        android:text="Unequip"
+        app:layout_constraintBottom_toTopOf="@+id/view35"
+        app:layout_constraintEnd_toStartOf="@+id/view36"
+        app:layout_constraintStart_toEndOf="@+id/view37"
+        app:layout_constraintTop_toBottomOf="@+id/textView31" />
+
+    <ImageButton
+        android:id="@+id/btnExit_Unequip"
+        android:layout_width="36dp"
+        android:layout_height="37dp"
+        android:layout_marginEnd="1dp"
+        android:background="@drawable/exit"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

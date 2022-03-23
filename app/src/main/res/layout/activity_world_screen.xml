@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@drawable/background_brown">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".WorldFragment">
+
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="47dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="46dp"
+            android:text="World 2"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="@+id/World_2_Button"
+            app:layout_constraintStart_toStartOf="@+id/World_2_Button"
+            app:layout_constraintTop_toBottomOf="@+id/World_2_Button" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="49dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="38dp"
+            android:text="World 3"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="@+id/World_3_Button"
+            app:layout_constraintStart_toStartOf="@+id/World_3_Button"
+            app:layout_constraintTop_toBottomOf="@+id/World_3_Button" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="41dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="49dp"
+            android:text="World 4"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="@+id/World_4_Button"
+            app:layout_constraintStart_toStartOf="@+id/World_4_Button"
+            app:layout_constraintTop_toBottomOf="@+id/World_4_Button" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="52dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="42dp"
+            android:text="World 5"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="@+id/World_5_Button"
+            app:layout_constraintStart_toStartOf="@+id/World_5_Button"
+            app:layout_constraintTop_toBottomOf="@+id/World_5_Button" />
+
+        <ImageButton
+            android:id="@+id/World_1_Button"
+            android:layout_width="153dp"
+            android:layout_height="112dp"
+            android:layout_marginTop="172dp"
+            android:layout_marginBottom="6dp"
+            android:background="@drawable/world1"
+            android:contentDescription="TODO"
+            app:layout_constraintBottom_toTopOf="@+id/textView2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.852"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="36dp"
+            android:layout_marginBottom="168dp"
+            android:text="Choose a World to Explore"
+            android:textColor="#FFF"
+            android:textSize="24sp"
+            app:layout_constraintBottom_toTopOf="@+id/World_2_Button"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/btnbackHome" />
+
+        <ImageButton
+            android:id="@+id/World_4_Button"
+            android:layout_width="151dp"
+            android:layout_height="114dp"
+            android:layout_marginStart="38dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="80dp"
+            android:layout_marginBottom="9dp"
+            android:background="@android:color/white"
+            app:layout_constraintBottom_toTopOf="@+id/textView5"
+            app:layout_constraintEnd_toStartOf="@+id/textView4"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/World_3_Button" />
+
+        <ImageButton
+            android:id="@+id/World_3_Button"
+            android:layout_width="148dp"
+            android:layout_height="116dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="182dp"
+            android:background="@android:color/white"
+            app:layout_constraintBottom_toTopOf="@+id/World_5_Button"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.836"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/World_2_Button"
+            app:layout_constraintVertical_bias="0.09" />
+
+        <ImageButton
+            android:id="@+id/World_2_Button"
+            android:layout_width="154dp"
+            android:layout_height="125dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="165dp"
+            android:background="@android:color/white"
+            app:layout_constraintBottom_toTopOf="@+id/World_4_Button"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.167"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/World_1_Button"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <ImageButton
+            android:id="@+id/World_5_Button"
+            android:layout_width="155dp"
+            android:layout_height="119dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="10dp"
+            android:background="@android:color/white"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.832"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/World_4_Button"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginEnd="42dp"
+            android:text="World 1"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="@+id/World_1_Button"
+            app:layout_constraintStart_toStartOf="@+id/World_1_Button"
+            app:layout_constraintTop_toBottomOf="@+id/World_1_Button" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="161dp"
+            android:layout_height="116dp"
+            android:layout_marginBottom="9dp"
+            app:layout_constraintBottom_toBottomOf="@+id/World_2_Button"
+            app:layout_constraintEnd_toEndOf="@+id/World_2_Button"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="@+id/World_2_Button"
+            app:layout_constraintTop_toTopOf="@+id/World_2_Button"
+            app:layout_constraintVertical_bias="0.0"
+            app:srcCompat="@android:drawable/ic_lock_lock" />
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="152dp"
+            android:layout_height="109dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="2dp"
+            app:layout_constraintBottom_toBottomOf="@+id/World_3_Button"
+            app:layout_constraintEnd_toEndOf="@+id/World_3_Button"
+            app:layout_constraintStart_toStartOf="@+id/World_3_Button"
+            app:layout_constraintTop_toTopOf="@+id/World_3_Button"
+            app:layout_constraintVertical_bias="1.0"
+            app:srcCompat="@android:drawable/ic_lock_lock" />
+
+        <ImageView
+            android:id="@+id/imageView10"
+            android:layout_width="149dp"
+            android:layout_height="115dp"
+            android:layout_marginEnd="2dp"
+            app:layout_constraintBottom_toBottomOf="@+id/World_4_Button"
+            app:layout_constraintEnd_toEndOf="@+id/World_4_Button"
+            app:layout_constraintStart_toStartOf="@+id/World_4_Button"
+            app:layout_constraintTop_toTopOf="@+id/World_4_Button"
+            app:srcCompat="@android:drawable/ic_lock_lock" />
+
+        <ImageView
+            android:id="@+id/imageView11"
+            android:layout_width="147dp"
+            android:layout_height="130dp"
+            android:layout_marginStart="3dp"
+            android:layout_marginEnd="5dp"
+            app:layout_constraintBottom_toBottomOf="@+id/World_5_Button"
+            app:layout_constraintEnd_toEndOf="@+id/World_5_Button"
+            app:layout_constraintStart_toStartOf="@+id/World_5_Button"
+            app:layout_constraintTop_toTopOf="@+id/World_5_Button"
+            app:srcCompat="@android:drawable/ic_lock_lock" />
+
+        <ImageButton
+            android:id="@+id/btnbackHome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="104dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/abc_vector_test" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

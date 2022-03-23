@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/background_brown"
+    android:layout_width="match_parent"
+    android:layout_height="575dp"
+    android:layout_gravity="bottom">
+
+    <View
+        android:id="@+id/view12"
+        android:layout_width="413dp"
+        android:layout_height="90dp"
+        android:layout_marginBottom="488dp"
+        android:background="@color/NavajoWhite"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <View
+        android:id="@+id/view15"
+        android:layout_width="391dp"
+        android:layout_height="125dp"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="8dp"
+        android:background="@color/NavajoWhite"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view12" />
+
+    <View
+        android:id="@+id/view14"
+        android:layout_width="414dp"
+        android:layout_height="19dp"
+        android:background="@color/Indigo"
+        app:layout_constraintBottom_toBottomOf="@+id/view12"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <View
+        android:id="@+id/view13"
+        android:layout_width="414dp"
+        android:layout_height="19dp"
+        android:layout_marginTop="3dp"
+        android:background="@color/Indigo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/view12" />
+
+    <ImageButton
+        android:id="@+id/btn_back_equipment_shop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="5dp"
+        app:layout_constraintBottom_toTopOf="@+id/view14"
+        app:layout_constraintStart_toStartOf="@+id/view12"
+        app:layout_constraintTop_toBottomOf="@+id/view13"
+        app:srcCompat="@drawable/abc_vector_test" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="3dp"
+        android:text="Equipments"
+        android:textColor="@color/Black"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/view14"
+        app:layout_constraintStart_toEndOf="@+id/btn_back_equipment_shop"
+        app:layout_constraintTop_toBottomOf="@+id/view13" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="109dp"
+        android:layout_height="103dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="280dp"
+        android:background="@drawable/necklace"
+        app:layout_constraintEnd_toEndOf="@+id/view15"
+        app:layout_constraintTop_toBottomOf="@+id/view12" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="Rainbow Necklace"
+        android:textColor="@color/Black"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView17"
+        app:layout_constraintStart_toEndOf="@+id/imageButton"
+        app:layout_constraintTop_toTopOf="@+id/view15" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="184dp"
+        android:layout_height="89dp"
+        android:layout_marginBottom="7dp"
+        android:text="A rainbow coloured necklace made up of colourful pearls. Attack + 20 , Defense +10"
+        app:layout_constraintBottom_toBottomOf="@+id/view15"
+        app:layout_constraintStart_toEndOf="@+id/imageButton" />
+
+    <Button
+        android:id="@+id/btnBuy_equipments"
+        android:layout_width="75dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="68dp"
+        android:layout_marginEnd="9dp"
+        android:layout_marginBottom="8dp"
+        android:text="Buy"
+        app:layout_constraintBottom_toBottomOf="@+id/view15"
+        app:layout_constraintEnd_toEndOf="@+id/view15"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/textView17"
+        app:layout_constraintTop_toTopOf="@+id/view15" />
+
+    <ImageView
+        android:id="@+id/imageView30"
+        android:layout_width="24dp"
+        android:layout_height="29dp"
+        android:layout_marginStart="335dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="83dp"
+        app:layout_constraintBottom_toBottomOf="@+id/view15"
+        app:layout_constraintEnd_toEndOf="@+id/view15"
+        app:layout_constraintStart_toStartOf="@+id/view15"
+        app:layout_constraintTop_toTopOf="@+id/view15"
+        app:srcCompat="@drawable/coinicon" />
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="79dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="302dp"
+        android:layout_marginTop="42dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="63dp"
+        android:text="$ 6000"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="@+id/view15"
+        app:layout_constraintEnd_toEndOf="@+id/view15"
+        app:layout_constraintStart_toStartOf="@+id/view15"
+        app:layout_constraintTop_toTopOf="@+id/view15" />
+
+    <ImageView
+        android:id="@+id/sold"
+        android:layout_width="401dp"
+        android:layout_height="137dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="17dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="334dp"
+        android:background="@android:drawable/editbox_dropdown_dark_frame"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view12" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

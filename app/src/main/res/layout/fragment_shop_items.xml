@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/background_brown"
+    android:layout_width="match_parent"
+    android:layout_height="575dp"
+    android:layout_gravity="bottom">
+
+
+    <View
+        android:id="@+id/view16"
+        android:layout_width="391dp"
+        android:layout_height="125dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="22dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="338dp"
+        android:background="@color/NavajoWhite"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view10" />
+
+    <View
+        android:id="@+id/view10"
+        android:layout_width="413dp"
+        android:layout_height="90dp"
+        android:layout_marginBottom="484dp"
+        android:background="@color/NavajoWhite"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <View
+        android:id="@+id/view9"
+        android:layout_width="414dp"
+        android:layout_height="19dp"
+        android:background="@color/Indigo"
+        app:layout_constraintBottom_toBottomOf="@+id/view10"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <View
+        android:id="@+id/view11"
+        android:layout_width="414dp"
+        android:layout_height="19dp"
+        android:background="@color/Indigo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/view10" />
+
+
+    <ImageButton
+        android:id="@+id/btn_back_items_shop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom="6dp"
+        app:layout_constraintBottom_toTopOf="@+id/view9"
+        app:layout_constraintStart_toStartOf="@+id/view10"
+        app:layout_constraintTop_toBottomOf="@+id/view11"
+        app:srcCompat="@drawable/abc_vector_test" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="118dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginEnd="219dp"
+        android:layout_marginBottom="9dp"
+        android:text="Items"
+        android:textColor="@color/Black"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/view9"
+        app:layout_constraintEnd_toEndOf="@+id/view10"
+        app:layout_constraintStart_toStartOf="@+id/view10"
+        app:layout_constraintTop_toBottomOf="@+id/view11" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="101dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/potion"
+        app:layout_constraintBottom_toBottomOf="@+id/view16"
+        app:layout_constraintStart_toStartOf="@+id/view16"
+        app:layout_constraintTop_toTopOf="@+id/view16" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="9dp"
+        android:layout_marginBottom="2dp"
+        android:text="Health Potion"
+        android:textColor="@color/Black"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView18"
+        app:layout_constraintStart_toEndOf="@+id/imageButton2"
+        app:layout_constraintTop_toTopOf="@+id/view16" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="144dp"
+        android:layout_height="83dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginBottom="7dp"
+        android:text="A pink colour potion which recover health. Recover 1 heart.       HP +1"
+        app:layout_constraintBottom_toBottomOf="@+id/view16"
+        app:layout_constraintStart_toEndOf="@+id/imageButton2" />
+
+    <Button
+        android:id="@+id/btnBuy_Items"
+        android:layout_width="75dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="284dp"
+        android:layout_marginTop="69dp"
+        android:layout_marginEnd="26dp"
+        android:layout_marginBottom="8dp"
+        android:text="Buy"
+        app:layout_constraintBottom_toBottomOf="@+id/view16"
+        app:layout_constraintEnd_toEndOf="@+id/view16"
+        app:layout_constraintStart_toStartOf="@+id/imageButton2"
+        app:layout_constraintTop_toTopOf="@+id/view16" />
+
+    <TextView
+        android:id="@+id/textView28"
+        android:layout_width="82dp"
+        android:layout_height="19dp"
+        android:layout_marginStart="289dp"
+        android:layout_marginTop="49dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="57dp"
+        android:text="$ 1500"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="@+id/view16"
+        app:layout_constraintEnd_toEndOf="@+id/view16"
+        app:layout_constraintStart_toStartOf="@+id/view16"
+        app:layout_constraintTop_toTopOf="@+id/view16" />
+
+    <ImageView
+        android:id="@+id/imageView31"
+        android:layout_width="41dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="306dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="44dp"
+        android:layout_marginBottom="78dp"
+        app:layout_constraintBottom_toBottomOf="@+id/view16"
+        app:layout_constraintEnd_toEndOf="@+id/view16"
+        app:layout_constraintStart_toStartOf="@+id/view16"
+        app:layout_constraintTop_toTopOf="@+id/view16"
+        app:srcCompat="@drawable/coinicon" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

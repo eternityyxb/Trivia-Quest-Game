@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_brown"
+    tools:context=".LibraryActivity">
+
+    <View
+        android:id="@+id/libraryview1"
+        android:layout_width="413dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginBottom="628dp"
+        android:background="@color/NavajoWhite"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <View
+        android:id="@+id/libraryview2"
+        android:layout_width="414dp"
+        android:layout_height="19dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="73dp"
+        android:background="@color/Indigo"
+        app:layout_constraintBottom_toBottomOf="@+id/libraryview1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/libraryview1" />
+
+    <View
+        android:id="@+id/libraryview3"
+        android:layout_width="414dp"
+        android:layout_height="19dp"
+        android:layout_marginTop="71dp"
+        android:background="@color/Indigo"
+        app:layout_constraintBottom_toBottomOf="@+id/libraryview1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/libraryview1" />
+
+    <ImageButton
+        android:id="@+id/btn_back_library"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="5dp"
+        app:layout_constraintBottom_toTopOf="@+id/libraryview3"
+        app:layout_constraintStart_toStartOf="@+id/libraryview1"
+        app:layout_constraintTop_toBottomOf="@+id/libraryview2"
+        app:srcCompat="@drawable/abc_vector_test" />
+
+    <TextView
+        android:id="@+id/librarytext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="3dp"
+        android:text="Library"
+        android:textColor="@color/Black"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/libraryview3"
+        app:layout_constraintStart_toEndOf="@+id/btn_back_library"
+        app:layout_constraintTop_toBottomOf="@+id/libraryview2" />
+
+    <View
+        android:id="@+id/cavernview"
+        android:layout_width="398dp"
+        android:layout_height="586dp"
+        android:layout_marginTop="14dp"
+        android:layout_marginBottom="24dp"
+        android:background="@color/NavajoWhite"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/libraryview1" />
+
+    <ImageView
+        android:id="@+id/cavernbook"
+        android:layout_width="125dp"
+        android:layout_height="139dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="26dp"
+        android:clickable="true"
+        android:src="@drawable/book_cavern"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/cavernview" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
