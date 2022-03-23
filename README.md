@@ -2,7 +2,7 @@
 A simple e-learning mobile game (gamification) 
 
 ## Tools
-Android Studio - Java / XML
+Android Studio - Java / XML <br/>
 SQLite
 
 ## Demo Video
