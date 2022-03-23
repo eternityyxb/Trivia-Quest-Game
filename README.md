@@ -1,5 +1,5 @@
 # Trivia-Quest-Game
-A prototype e-learning mobile game (gamification) 
+A prototype e-learning mobile app gamified using multiple-choice quizzes and RPG elements
 
 ## Tools
 Android Studio - Java / XML <br/>
