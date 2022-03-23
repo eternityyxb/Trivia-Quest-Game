@@ -1,5 +1,5 @@
 # Trivia-Quest-Game
-A simple e-learning mobile game (gamification) 
+A prototype e-learning mobile game (gamification) 
 
 ## Tools
 Android Studio - Java / XML <br/>
